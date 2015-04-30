@@ -73,6 +73,16 @@ public class ItemOrCategory implements Serializable {
     @Enumerated(EnumType.ORDINAL)
     ItemOrCategoryType type;
 
+    
+    Double height;
+    Double width;
+    Double minHeight;
+    Double maxHeight;
+    Double minWidth;
+    Double maxWidth;
+    
+    
+    
     public Long getId() {
         return id;
     }
